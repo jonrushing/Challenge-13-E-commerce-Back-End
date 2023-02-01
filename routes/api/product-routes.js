@@ -29,8 +29,7 @@ router.get('/', (req, res) => {
           'id',
           'tag_name'
         ]
-      }
-    ]
+      }]
   }).then(data => {
     res.json(data)
   }).catch(err => {
