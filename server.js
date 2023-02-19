@@ -5,7 +5,7 @@ const sequelize = require('./config/connection.js');
 // import sequelize connection
 
 const app = express();
-const PORT = process.env.PORT || 3050;
+const PORT = process.env.PORT || 3001;
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
